@@ -1,8 +1,13 @@
-.carousel-item{
-    height: 800px;
+
+@media screen and (min-width: 576px){
+    .card{
+        height: 200px;
+    }
 }
-div.card>img{
-    width: 250px;
-    height: 140px;
+.card img{
+    object-fit: contain;
 }
 
+.container-fluid .row{
+
+}
