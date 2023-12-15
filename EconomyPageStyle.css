@@ -1,0 +1,117 @@
+:root{
+    --color1: #05b1b1;
+    --color2: #52339a;
+    --color3: #151815;
+
+}
+
+#logoRow{
+    background: var(--primary, #1A415D);
+}
+
+#logoFirst{
+    margin: 9px 0 8px 18px;
+}
+
+#navRow1{
+    background: var(--light, #DCE5EC);
+}
+
+#Date{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 10px;
+}
+
+
+#btnGroup1 .active{
+    color: var(--light, #DCE5EC);
+    background: var(--primary, #1A415D);
+}
+
+#btnGroup2 .active{
+    border-bottom: 2px solid var(--primary, #1A415D);
+}
+
+.underline{
+    width: 143px;
+    border-bottom: 2px solid var(--primary, #1A415D);
+}
+
+#btnGroup1 li, #btnGroup2 li{
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    height: 50px;
+    padding: 9px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#Icons{
+    margin: 15px 31px 15px 0;
+}
+
+#Icons img{
+    margin-left: 15px;
+}
+
+*{
+    color: var(--primary, #1A415D);
+    font-family: Open Sans;
+    font-style: normal;
+    line-height: normal;
+}
+
+#Header{
+    padding-top: 70px;
+}
+
+#newsBlock1 header{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#newsBlock1 p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#newsBlock2 header{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#newsBlock2 p{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+#newsBlock1 img{
+    width: 862px;
+    height: 480px;
+    flex-shrink: 0; 
+}
+
+#newsBlock1 img{
+    height: 400px;
+}
+
+#cardBlock header, #cardBlock2 header{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#cardBlock p, #cardBlock2 p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#cardBlock .col{
+    border-bottom: 2px solid var(--primary, #1A415D);
+}

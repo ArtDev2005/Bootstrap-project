@@ -51,3 +51,31 @@ header, footer{
 .btn-itd:hover{
     background-color: var(--color1);
 }
+
+.purple{
+    color: var(--color2);
+}
+
+.about{
+    background-color: #eee;
+}
+
+.about i{
+    font-size: 25px;
+    color: var(--color2);
+}
+
+.itd-circle{
+     margin: 0 auto 15px;
+     width: 70px;
+     height: 70px;
+     border: 3px solid var(--color2);
+     border-radius: 50%;
+}
+
+
+.line{
+    width: 100px;
+    height: 3px;
+    margin: 15px auto 30px;
+}
