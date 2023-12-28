@@ -1,16 +1,5 @@
-:root{
-    --color1: #05b1b1;
-    --color2: #52339a;
-    --color3: #151815;
-
-}
-
 #logoRow{
     background: var(--primary, #1A415D);
-}
-
-#logoFirst{
-    margin: 9px 0 8px 18px;
 }
 
 #navRow1{
@@ -27,10 +16,35 @@
     margin-right: 10px;
 }
 
+.color{
+    background: var(--primary, #1A415D);
+}
 
-#btnGroup1 .active{
+#btnGroup1 .active, #Nav1 .active{
     color: var(--light, #DCE5EC);
     background: var(--primary, #1A415D);
+}
+
+#Nav1 .nav-item .nav-link{
+    border-radius: 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-grow: 1;
+}
+#first{
+    border-top-left-radius: 4px !important;
+}
+#last{
+    border-top-right-radius: 4px !important;
+}
+
+#Tag1, #Tag2{
+    width: 120px;
+    height: 55px;
 }
 
 #btnGroup2 .active{
@@ -38,7 +52,6 @@
 }
 
 .underline{
-    width: 143px;
     border-bottom: 2px solid var(--primary, #1A415D);
 }
 
@@ -53,23 +66,12 @@
     gap: 10px;
 }
 
-#Icons{
-    margin: 15px 31px 15px 0;
-}
-
-#Icons img{
-    margin-left: 15px;
-}
 
 *{
     color: var(--primary, #1A415D);
     font-family: Open Sans;
     font-style: normal;
     line-height: normal;
-}
-
-#Header{
-    padding-top: 70px;
 }
 
 #newsBlock1 header{
@@ -92,26 +94,43 @@
     font-weight: 300;
 }
 
-#newsBlock1 img{
-    width: 862px;
-    height: 480px;
-    flex-shrink: 0; 
-}
-
-#newsBlock1 img{
-    height: 400px;
-}
-
-#cardBlock header, #cardBlock2 header{
+#cardBlock header, #cardBlock2 header, #cardBlock3 header, #cardBlock4 header{
     font-size: 16px;
     font-weight: 500;
 }
 
-#cardBlock p, #cardBlock2 p{
+#cardBlock p, #cardBlock2 p, #cardBlock3 p, #cardBlock4 p{
     font-size: 14px;
     font-weight: 300;
 }
 
-#cardBlock .col{
-    border-bottom: 2px solid var(--primary, #1A415D);
+.border{
+    border-color: var(--primary, #1A415D) !important;
+}
+
+footer{
+    background: var(--primary, #1A415D);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+footer p, footer li, footer a{
+    color: var(--light, #DCE5EC);
+}
+
+.sm-img{
+    width: 140px;
+    height: 120px;
+    flex-shrink: 0;
+}
+.md-img{
+    width: 335px;
+    height: 266px;
+    flex-shrink: 0;
+}
+
+.lg-img{
+    width: 862px;
+    height: 480px;
+    flex-shrink: 0;
 }

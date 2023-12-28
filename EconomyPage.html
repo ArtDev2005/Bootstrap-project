@@ -10,24 +10,28 @@
 </head>
 <body>
     <header>
-        <div id="logoRow" class="row">
-            <div class="col-6 d-flex">
-                <img id="logoFirst" src="./imgs/svg/logo 1.svg" alt="logo 1">
-                <img id="logoSecond" class="ms-3" src="./imgs/svg/logo 2.svg" alt="logo 2">
+        <div id="logoRow" class="row align-items-center">
+            <div class="col-8 col-md-6 d-flex">
+                <img id="logoFirst" class="ps-3 py-2" src="./imgs/svg/logo 1.svg" alt="logo 1">
+                <img id="logoSecond" class="ms-1" src="./imgs/svg/logo 2.svg" alt="logo 2">
             </div>
-            <div class="col-6 d-flex align-items-center justify-content-end">
-                <div id="Date" class="">13 декабря 2023</div>
-                <div id="Icons">
-                    <a href="#"><img src="./imgs/svg/telegram.svg"></a>
-                    <a href="#"><img src="./imgs/svg/youtube.svg"></a>
-                    <a href="#"><img src="./imgs/svg/inst.svg"></a>
-                    <a href="#"><img src="./imgs/svg/facebook.svg"></a>
+            <div class="col-4 col-md-6">
+                <div class="row d-flex flex-xs-column flex-row flex-sm-column flex-md-row">
+                    <div class="col-12 col-md-6 justify-content-md-center">
+                        <div id="Date" class="text-end text-md-center text-lg-end mx-0">13 декабря 2023</div>
+                    </div>
+                    <div id="Icons" class="col-12 col-md-6 d-flex gap-2 gap-md-3 align-items-center justify-content-end">
+                        <a href="#"><img src="./imgs/svg/telegram.svg"></a>
+                        <a href="#"><img src="./imgs/svg/youtube.svg"></a>
+                        <a href="#"><img src="./imgs/svg/inst.svg"></a>
+                        <a href="#"><img src="./imgs/svg/facebook.svg"></a>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12">
-                <ul id="btnGroup1" class="nav pt-1">
+            <div class="col-12">
+                <ul id="btnGroup1" class="nav pt-1 d-flex justify-content-around justify-content-md-start">
                     <li class="" data-bs-toggle="tab" role="button">Home</li>
                     <li class=" active" data-bs-toggle="tab" role="button">Economy</li>
                     <li class="" data-bs-toggle="tab" role="button">Sport</li>
@@ -36,9 +40,9 @@
                 </ul>
             </div>
         </div>
-        <div class="row">
-            <div id="navRow" class="col-lg-12">
-                <ul id="btnGroup2" class="nav">
+        <div class="row pt-3">
+            <div id="navRow" class="col-12">
+                <ul id="btnGroup2" class="nav d-flex justify-content-around justify-content-md-start">
                     <li class="" data-bs-toggle="tab" role="button">Markets</li>
                     <li class=" active" data-bs-toggle="tab" role="button">Real Estates</li>
                     <li class="" data-bs-toggle="tab" role="button">Investments</li>
@@ -49,50 +53,70 @@
         </div>
     </header>
     <div class="container mt-1">
-        <div id="Header" class="row">
-            <header class="font-hd underline">
-                <h2 class="">Economy</h2>
-            </header>
+        <div id="Header" class="row pt-5">
+            <h1 class=""><span class="underline">Economy</span></h1>
         </div>
-        <div class="row pt-5">
-            <div class="col-lg-6 col-md-12">
+        <div class="row mt-3 gap-4 gap-xxl-0">
+            <div class="col-xl-7 col-12">
                 <div id="newsBlock1" class="row flex-column">
-                    <img class="img-fluid" src="./imgs/adnic.png" alt="">
-                    <header class="">
-                        ADNIC reports net profit of AED 301.9 million for the first nine months of 2023
-                    </header>
-                    <p>ABU DHABI, 14th November, 2023 (WAM) – Abu Dhabi National Insurance Company (ADNIC) reported its financial results for the nine-month period ended 30 September 2023.ADNIC’s net profit reached AED 301.9 million for the nine-month period ended 30 September 2023, representing a 16.2% increase compared</p>
+                    <img class="img-fluid lg-img w-100 h-100" src="./imgs/adnic.png" alt="">
+                    <div class="justify-content mt-2">
+                        <header class="">
+                            ADNIC reports net profit of AED 301.9 million for the first nine months of 2023
+                        </header>
+                        <p>ABU DHABI, 14th November, 2023 (WAM) – Abu Dhabi National Insurance Company (ADNIC) reported its financial results for the nine-month period ended 30 September 2023.ADNIC’s net profit reached AED 301.9 million for the nine-month period ended 30 September 2023, representing a 16.2% increase compared</p>
+                        <div class="d-flex my-3 align-items-center">
+                            <img class="" src="./imgs/svg/clock.svg" alt="">
+                            <p class="m-0 ms-2">yesterday</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="col-lg-6 col-md-12">
+            <div class="col-xl-5 col-12">
                 <div id="newsBlock2" class="row flex-column gap-3">
-                    <div class="col d-flex gap-3">
-                        <img class="img-fluid" src="./imgs/c1.png" alt="">
-                        <div class="justify-content">
-                            <header class="font">Khalifa University partners with ADNOC to launch academic programme in energy transition</header>
-                            <p>Khalifa University of Science and Technology and the Abu Dhabi National Oil Company (ADNOC) have launched a minor in Energy Transition academic programme for undergraduate students.The minor in Energy Transition pr</p>
+                    <div class="col-12 d-flex flex-xl-column flex-row flex-xxl-row">
+                        <img class="img-fluid sm-img mx-lg-auto d-lg-block" src="./imgs/c1.png" alt="">
+                        <div class="justify-content ps-2">
+                            <h6>Dubai showcases its manufacturing capabilities at Anuga food and beverage exhibition</h6>
+                            <p>The Dubai Economic Development Corporation (DEDC), a subsidiary of the Dubai Department of Economy and Tourism (DET), successfully participated at the Anuga 2023, the international food and beverage exhibition held r</p>
+                            <div class="d-flex my-3 align-items-center">
+                                <img class="" src="./imgs/svg/clock.svg" alt="">
+                                <p class="m-0 ms-2">yesterday</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col d-flex gap-3">
-                        <img class="img-fluid" src="./imgs/c2.png" alt="">
-                        <div class="justify-content">
-                            <header class="font">Khalifa University partners with ADNOC to launch academic programme in energy transition</header>
-                            <p>Khalifa University of Science and Technology and the Abu Dhabi National Oil Company (ADNOC) have launched a minor in Energy Transition academic programme for undergraduate students.The minor in Energy Transition pr</p>
+                    <div class="col-12 d-flex flex-xl-column flex-row flex-xxl-row">
+                        <img class="img-fluid sm-img mx-lg-auto d-lg-block" src="./imgs/c2.png" alt="">
+                        <div class="justify-content ps-2">
+                            <h6>Dubai showcases its manufacturing capabilities at Anuga food and beverage exhibition</h6>
+                            <p>The Dubai Economic Development Corporation (DEDC), a subsidiary of the Dubai Department of Economy and Tourism (DET), successfully participated at the Anuga 2023, the international food and beverage exhibition held r</p>
+                            <div class="d-flex my-3 align-items-center">
+                                <img class="" src="./imgs/svg/clock.svg" alt="">
+                                <p class="m-0 ms-2">yesterday</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col d-flex gap-3">
-                        <img class="img-fluid" src="./imgs/c3.png" alt="">
-                        <div class="justify-content">
-                            <header class="font">Khalifa University partners with ADNOC to launch academic programme in energy transition</header>
-                            <p>Khalifa University of Science and Technology and the Abu Dhabi National Oil Company (ADNOC) have launched a minor in Energy Transition academic programme for undergraduate students.The minor in Energy Transition pr</p>
+                    <div class="col-12 d-flex flex-xl-column flex-row flex-xxl-row">
+                        <img class="img-fluid sm-img mx-lg-auto d-lg-block" src="./imgs/c3.png" alt="">
+                        <div class="justify-content ps-2">
+                            <h6>Dubai showcases its manufacturing capabilities at Anuga food and beverage exhibition</h6>
+                            <p>The Dubai Economic Development Corporation (DEDC), a subsidiary of the Dubai Department of Economy and Tourism (DET), successfully participated at the Anuga 2023, the international food and beverage exhibition held r</p>
+                            <div class="d-flex my-3 align-items-center">
+                                <img class="" src="./imgs/svg/clock.svg" alt="">
+                                <p class="m-0 ms-2">yesterday</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col d-flex gap-3">
-                        <img class="img-fluid" src="./imgs/c4.png" alt="">
-                        <div class="justify-content">
-                            <header class="font">Khalifa University partners with ADNOC to launch academic programme in energy transition</header>
-                            <p>Khalifa University of Science and Technology and the Abu Dhabi National Oil Company (ADNOC) have launched a minor in Energy Transition academic programme for undergraduate students.The minor in Energy Transition pr</p>
+                    <div class="col-12 d-flex flex-xl-column flex-row flex-xxl-row">
+                        <img class="img-fluid sm-img mx-lg-auto d-lg-block" src="./imgs/c4.png" alt="">
+                        <div class="justify-content ps-2">
+                            <h6>Dubai showcases its manufacturing capabilities at Anuga food and beverage exhibition</h6>
+                            <p>The Dubai Economic Development Corporation (DEDC), a subsidiary of the Dubai Department of Economy and Tourism (DET), successfully participated at the Anuga 2023, the international food and beverage exhibition held r</p>
+                            <div class="d-flex my-3 align-items-center">
+                                <img class="" src="./imgs/svg/clock.svg" alt="">
+                                <p class="m-0 ms-2">yesterday</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -100,123 +124,442 @@
             
         </div>
         
-        <div id="cardBlock" class=" row py-5 gap-5">
-            <div class="row gap-5">
-                <div class="col">
-                    <header class="pb-3">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic to reach 86.8m</header>
-                    <p class="text-dark m-0">Dubai Airports is forecasting annual passenger traffic at Dubai International (DXB) to reach 86.8 million – surpassing 2019 traffic, propelled by strong growth throughout the first three quarters of the year and anticipation of an exceptional surge in guest numbers in the final quarter. DXB commenc</p>
-                    <img class="my-3" src="./imgs/svg/clock.svg" alt="">
-                </div> 
-                <div class="col">
-                    <header class="pb-3">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic 
-                        to reach 86.8m</header>
-                    <p class="text-dark m-0">Dubai Airports is forecasting annual passenger traffic at Dubai International (DXB) to reach 86.8 million – surpassing 2019 traffic, propelled by strong growth throughout the first three quarters of the year and anticipation of an exceptional surge in guest numbers in the final quarter. DXB commenc</p>
-                    <img class="my-3" src="./imgs/svg/clock.svg" alt="">
+        <div id="cardBlock" class="mt-5 gy-3">
+            <div class="row g-3">
+                <div class="col-md-12 col-lg-6">
+                    <div class="underline">
+                        <h6 class="pb-3">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic to reach 86.8m</h6>
+                        <p class="text-dark m-0">Dubai Airports is forecasting annual passenger traffic at Dubai International (DXB) to reach 86.8 million – surpassing 2019 traffic, propelled by strong growth throughout the first three quarters of the year and anticipation of an exceptional surge in guest numbers in the final quarter. DXB commenc</p>
+                        <div class="d-flex my-3 align-items-center">
+                            <img class="" src="./imgs/svg/clock.svg" alt="">
+                            <p class="m-0 ms-2">23 hours ago</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col">
-                    <header class="pb-3">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic 
-                        to reach 86.8m</header>
-                    <p class="text-dark m-0">Dubai Airports is forecasting annual passenger traffic at Dubai International (DXB) to reach 86.8 million – surpassing 2019 traffic, propelled by strong growth throughout the first three quarters of the year and anticipation of an exceptional surge in guest numbers in the final quarter. DXB commenc</p>
-                    <img class="my-3" src="./imgs/svg/clock.svg" alt="">
+                <div class="col-lg-6 col-md-12">
+                    <div class="underline">
+                        <h6 class="pb-3">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic to reach 86.8m</h6>
+                        <p class="text-dark m-0">Dubai Airports is forecasting annual passenger traffic at Dubai International (DXB) to reach 86.8 million – surpassing 2019 traffic, propelled by strong growth throughout the first three quarters of the year and anticipation of an exceptional surge in guest numbers in the final quarter. DXB commenc</p>
+                        <div class="d-flex my-3 align-items-center">
+                            <img class="" src="./imgs/svg/clock.svg" alt="">
+                            <p class="m-0 ms-2">23 hours ago</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="row gap-5">
-                <div class="col">
-                    <header class="pb-3">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic 
-                        to reach 86.8m</header>
-                    <p class="text-dark m-0">Dubai Airports is forecasting annual passenger traffic at Dubai International (DXB) to reach 86.8 million – surpassing 2019 traffic, propelled by strong growth throughout the first three quarters of the year and anticipation of an exceptional surge in guest numbers in the final quarter. DXB commenc</p>
-                    <img class="my-3" src="./imgs/svg/clock.svg" alt="">
+                <div class="col-lg-6 col-md-12">
+                    <div class="underline">
+                        <h6 class="pb-3">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic to reach 86.8m</h6>
+                        <p class="text-dark m-0">Dubai Airports is forecasting annual passenger traffic at Dubai International (DXB) to reach 86.8 million – surpassing 2019 traffic, propelled by strong growth throughout the first three quarters of the year and anticipation of an exceptional surge in guest numbers in the final quarter. DXB commenc</p>
+                        <div class="d-flex my-3 align-items-center">
+                            <img class="" src="./imgs/svg/clock.svg" alt="">
+                            <p class="m-0 ms-2">23 hours ago</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col">
-                    <header class="pb-3">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic 
-                        to reach 86.8m</header>
-                    <p class="text-dark m-0">Dubai Airports is forecasting annual passenger traffic at Dubai International (DXB) to reach 86.8 million – surpassing 2019 traffic, propelled by strong growth throughout the first three quarters of the year and anticipation of an exceptional surge in guest numbers in the final quarter. DXB commenc</p>
-                    <img class="my-3" src="./imgs/svg/clock.svg" alt="">
+                <div class="col-lg-6 col-md-12">
+                    <div class="underline">
+                        <h6 class="pb-3">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic to reach 86.8m</h6>
+                        <p class="text-dark m-0">Dubai Airports is forecasting annual passenger traffic at Dubai International (DXB) to reach 86.8 million – surpassing 2019 traffic, propelled by strong growth throughout the first three quarters of the year and anticipation of an exceptional surge in guest numbers in the final quarter. DXB commenc</p>
+                        <div class="d-flex my-3 align-items-center">
+                            <img class="" src="./imgs/svg/clock.svg" alt="">
+                            <p class="m-0 ms-2">23 hours ago</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col">
-                    <header class="pb-3">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic 
-                        to reach 86.8m</header>
-                    <p class="text-dark m-0">Dubai Airports is forecasting annual passenger traffic at Dubai International (DXB) to reach 86.8 million – surpassing 2019 traffic, propelled by strong growth throughout the first three quarters of the year and anticipation of an exceptional surge in guest numbers in the final quarter. DXB commenc</p>
-                    <img class="my-3" src="./imgs/svg/clock.svg" alt="">
+                <div class="col-lg-6 col-md-12">
+                    <div class="underline">
+                        <h6 class="pb-3">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic to reach 86.8m</h6>
+                        <p class="text-dark m-0">Dubai Airports is forecasting annual passenger traffic at Dubai International (DXB) to reach 86.8 million – surpassing 2019 traffic, propelled by strong growth throughout the first three quarters of the year and anticipation of an exceptional surge in guest numbers in the final quarter. DXB commenc</p>
+                        <div class="d-flex my-3 align-items-center">
+                            <img class="" src="./imgs/svg/clock.svg" alt="">
+                            <p class="m-0 ms-2">23 hours ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="underline">
+                        <h6 class="pb-3">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic to reach 86.8m</h6>
+                        <p class="text-dark m-0">Dubai Airports is forecasting annual passenger traffic at Dubai International (DXB) to reach 86.8 million – surpassing 2019 traffic, propelled by strong growth throughout the first three quarters of the year and anticipation of an exceptional surge in guest numbers in the final quarter. DXB commenc</p>
+                        <div class="d-flex my-3 align-items-center">
+                            <img class="" src="./imgs/svg/clock.svg" alt="">
+                            <p class="m-0 ms-2">23 hours ago</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-            
-        <div id="cardBlock2" class="border border-primary rounded-2 p-5">
-            <div class="row">
-                <div class="card col-3 border-0">
-                    <img src="./imgs/image 12.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Заголовок карточки</h5>
-                        <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
-                        
+
+        <div id="cardBlock2" class="mt-5">
+            <div class="border rounded-2 p-lg-4 p-sm-2">
+                <div class="row gap-3 gap-lg-0">
+                    <div class="col-12 col-lg-3 col-xxl-3 d-lg-flex align-items-lg-stretch">
+                        <div class="underline d-flex flex-column">
+                            <div class="mb-1 mb-lg-0 justify-content-center">
+                                <div class=""><img src="./imgs/image 12.png" alt="" class="md-img mx-auto d-block w-100 h-100"></div>
+                                <h6 class="pt-2">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic to reach 86.8m</h6>
+                            </div>
+                            <div class="d-flex mb-3 align-items-center mt-auto">
+                                <img class="" src="./imgs/svg/clock.svg" alt="">
+                                <p class="m-0 ms-2">23 hours ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-xxl-3 d-flex align-items-stretch">
+                        <div class="underline d-flex flex-column">
+                            <h6 class="">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic to reach 86.8m</h6>
+                            <p class="text-dark m-0">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed qu</p>
+                            <div class="d-flex my-3 align-items-center pt-auto">
+                                <img class="" src="./imgs/svg/clock.svg" alt="">
+                                <p class="m-0 ms-2">23 hours ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-xxl-3 d-lg-flex align-items-lg-stretch">
+                        <div class="underline d-flex flex-column">
+                            <div class="mb-1 mb-lg-0 justify-content-center">
+                                <div class=""><img src="./imgs/image 11.png" alt="" class="md-img mx-auto d-block w-100 h-100"></div>
+                                <h6 class="pt-2">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic to reach 86.8m</h6>
+                            </div>
+                            <div class="d-flex mb-3 align-items-center mt-auto">
+                                <img class="" src="./imgs/svg/clock.svg" alt="">
+                                <p class="m-0 ms-2">23 hours ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 pt-xxl-0 pt-3 col-xxl-3 d-flex align-items-lg-stretch">
+                        <div class="underline d-flex flex-column">
+                            <h6 class="">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic to reach 86.8m</h6>
+                            <p class="text-dark m-0">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed qu</p>
+                            <div class="d-flex my-3 align-items-center pt-auto">
+                                <img class="" src="./imgs/svg/clock.svg" alt="">
+                                <p class="m-0 ms-2">23 hours ago</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="card col-3 border-0">
-                    <img src="./imgs/image 12.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Заголовок карточки</h5>
-                        <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
-                        
+                <div class="row pt-3 gap-3 gap-lg-0">
+                    <div class="col-lg-3 col-12 d-flex align-items-stretch">
+                        <div class="underline d-flex flex-column">
+                            <h6 class="">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic to reach 86.8m</h6>
+                            <p class="text-dark m-0">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed qu</p>
+                            <div class="d-flex my-3 align-items-center pt-auto">
+                                <img class="" src="./imgs/svg/clock.svg" alt="">
+                                <p class="m-0 ms-2">23 hours ago</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="card col-3 border-0">
-                    <img src="./imgs/image 12.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Заголовок карточки</h5>
-                        <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
-                        
+                    <div class="col-lg-3 col-12 d-flex align-items-stretch">
+                        <div class="underline d-flex flex-column">
+                            <h6 class="">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic to reach 86.8m</h6>
+                            <p class="text-dark m-0">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed qu</p>
+                            <div class="d-flex my-3 align-items-center pt-auto">
+                                <img class="" src="./imgs/svg/clock.svg" alt="">
+                                <p class="m-0 ms-2">23 hours ago</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="card col-3 border-0">
-                    <img src="./imgs/image 12.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Заголовок карточки</h5>
-                        <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
-                        
+                    <div class="col-lg-3 col-12 d-flex align-items-stretch">
+                        <div class="underline d-flex flex-column">
+                            <h6 class="">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic to reach 86.8m</h6>
+                            <p class="text-dark m-0">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed qu</p>
+                            <div class="d-flex my-3 align-items-center pt-auto">
+                                <img class="" src="./imgs/svg/clock.svg" alt="">
+                                <p class="m-0 ms-2">23 hours ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-12 d-flex align-items-stretch">
+                        <div class="underline d-flex flex-column">
+                            <h6 class="">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic to reach 86.8m</h6>
+                            <p class="text-dark m-0">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed qu</p>
+                            <div class="d-flex my-3 align-items-center pt-auto">
+                                <img class="" src="./imgs/svg/clock.svg" alt="">
+                                <p class="m-0 ms-2">23 hours ago</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="card col-3 border-0">
-                    <img src="./imgs/image 12.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Заголовок карточки</h5>
-                        <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
-                        
+        </div>
+        
+        
+        <div id="cardBlock3" class="mt-5 gy-3">
+            <div class="row g-3">
+                <div class="col-md-12 col-lg-6">
+                    <div class="underline">
+                        <h6 class="pb-3">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic to reach 86.8m</h6>
+                        <p class="text-dark m-0">Dubai Airports is forecasting annual passenger traffic at Dubai International (DXB) to reach 86.8 million – surpassing 2019 traffic, propelled by strong growth throughout the first three quarters of the year and anticipation of an exceptional surge in guest numbers in the final quarter. DXB commenc</p>
+                        <div class="d-flex my-3 align-items-center">
+                            <img class="" src="./imgs/svg/clock.svg" alt="">
+                            <p class="m-0 ms-2">23 hours ago</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card col-3 border-0">
-                    <img src="./imgs/image 12.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Заголовок карточки</h5>
-                        <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
-                        
+                <div class="col-lg-6 col-md-12">
+                    <div class="underline">
+                        <h6 class="pb-3">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic to reach 86.8m</h6>
+                        <p class="text-dark m-0">Dubai Airports is forecasting annual passenger traffic at Dubai International (DXB) to reach 86.8 million – surpassing 2019 traffic, propelled by strong growth throughout the first three quarters of the year and anticipation of an exceptional surge in guest numbers in the final quarter. DXB commenc</p>
+                        <div class="d-flex my-3 align-items-center">
+                            <img class="" src="./imgs/svg/clock.svg" alt="">
+                            <p class="m-0 ms-2">23 hours ago</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card col-3 border-0">
-                    <img src="./imgs/image 12.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Заголовок карточки</h5>
-                        <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
-                        
+                <div class="col-lg-6 col-md-12">
+                    <div class="underline">
+                        <h6 class="pb-3">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic to reach 86.8m</h6>
+                        <p class="text-dark m-0">Dubai Airports is forecasting annual passenger traffic at Dubai International (DXB) to reach 86.8 million – surpassing 2019 traffic, propelled by strong growth throughout the first three quarters of the year and anticipation of an exceptional surge in guest numbers in the final quarter. DXB commenc</p>
+                        <div class="d-flex my-3 align-items-center">
+                            <img class="" src="./imgs/svg/clock.svg" alt="">
+                            <p class="m-0 ms-2">23 hours ago</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card col-3 border-0">
-                    <img src="./imgs/image 12.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Заголовок карточки</h5>
-                        <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
-                        
+                <div class="col-lg-6 col-md-12">
+                    <div class="underline">
+                        <h6 class="pb-3">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic to reach 86.8m</h6>
+                        <p class="text-dark m-0">Dubai Airports is forecasting annual passenger traffic at Dubai International (DXB) to reach 86.8 million – surpassing 2019 traffic, propelled by strong growth throughout the first three quarters of the year and anticipation of an exceptional surge in guest numbers in the final quarter. DXB commenc</p>
+                        <div class="d-flex my-3 align-items-center">
+                            <img class="" src="./imgs/svg/clock.svg" alt="">
+                            <p class="m-0 ms-2">23 hours ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="underline">
+                        <h6 class="pb-3">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic to reach 86.8m</h6>
+                        <p class="text-dark m-0">Dubai Airports is forecasting annual passenger traffic at Dubai International (DXB) to reach 86.8 million – surpassing 2019 traffic, propelled by strong growth throughout the first three quarters of the year and anticipation of an exceptional surge in guest numbers in the final quarter. DXB commenc</p>
+                        <div class="d-flex my-3 align-items-center">
+                            <img class="" src="./imgs/svg/clock.svg" alt="">
+                            <p class="m-0 ms-2">23 hours ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="underline">
+                        <h6 class="pb-3">Dubai Airports’ 2023 forecast sees DXB soar beyond 2019 traffic to reach 86.8m</h6>
+                        <p class="text-dark m-0">Dubai Airports is forecasting annual passenger traffic at Dubai International (DXB) to reach 86.8 million – surpassing 2019 traffic, propelled by strong growth throughout the first three quarters of the year and anticipation of an exceptional surge in guest numbers in the final quarter. DXB commenc</p>
+                        <div class="d-flex my-3 align-items-center">
+                            <img class="" src="./imgs/svg/clock.svg" alt="">
+                            <p class="m-0 ms-2">23 hours ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cardBlock4" class=" mt-5">
+            <div class="row gap-3 gap-xl-0">
+                <div class="col-xl-8 col-12 d-flex flex-column align-items-stretch">
+                    <div class="d-flex">
+                        <div id="Tag1" class="color d-flex justify-content-center align-items-center">
+                            <h6 class="text-white m-0">POLITICS</h6>
+                        </div>
+                        <div class="ms-auto mt-auto">
+                            <ul id="Nav1" class="nav nav-tabs border-0" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link border-0 active" id="first" data-bs-toggle="tab" type="button" role="tab">all</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link border-0" data-bs-toggle="tab" type="button" role="tab">decrees</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link border-0" data-bs-toggle="tab" type="button" role="tab">Events</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link border-0" id="last" data-bs-toggle="tab" type="button" role="tab">Local news</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col border rounded-bottom-3 p-4 d-flex align-items-around">
+                        <div class="row gap-3">
+                            <div class="col-12 d-flex">
+                                <img class="img-fluid sm-img" src="./imgs/c4.1.png" alt="">
+                                <div class="justify-content ps-2">
+                                    <h6>UAE calls on UNESCO member states to join climate efforts at COP28</h6>
+                                    <p>Salem bin Khalid Al Qassimi, UAE Minister of Culture and Youth, called on member states of the United Nations Educational, Scientific and Cultural Organization (UNESCO), to join the UAE and its “Group of Friends” in</p>
+                                    <div class="d-flex my-auto align-items-center">
+                                        <img class="" src="./imgs/svg/clock.svg" alt="">
+                                        <p class="m-0 ms-2">yesterday</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex">
+                                <img class="img-fluid sm-img" src="./imgs/c4.2.png" alt="">
+                                <div class="justify-content ps-2">
+                                    <h6>Dubai showcases its manufacturing capabilities at Anuga food and beverage exhibition</h6>
+                                    <p>The Dubai Economic Development Corporation (DEDC), a subsidiary of the Dubai Department of Economy and Tourism (DET), successfully participated at the Anuga 2023, the international food and beverage exhibition held r</p>
+                                    <div class="d-flex my-auto align-items-center">
+                                        <img class="" src="./imgs/svg/clock.svg" alt="">
+                                        <p class="m-0 ms-2">yesterday</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex">
+                                <img class="img-fluid sm-img" src="./imgs/c4.3.png" alt="">
+                                <div class="justify-content ps-2">
+                                    <h6>Dubai showcases its manufacturing capabilities at Anuga food and beverage exhibition</h6>
+                                    <p>Gold prices rose during today's trading, gaining more than US$4 in spot trading to approach its highest levels in two and a half months.As of 12:06 p.m. UAE time, the yellow metal rose 0.22 percent or $4.4 to reach $1,952.07</p>
+                                    <div class="d-flex my-auto align-items-center">
+                                        <img class="" src="./imgs/svg/clock.svg" alt="">
+                                        <p class="m-0 ms-2">yesterday</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex">
+                                <img class="img-fluid sm-img" src="./imgs/c4.4.png" alt="">
+                                <div class="justify-content ps-2">
+                                    <h6>UAE wins first prize in Technology Challenge for People of Determination</h6>
+                                    <p>On Friday afternoon, the final round of the Global Information Technology Challenge for Youth of determination 2023 concluded at the Abu Dhabi National Exhibition Center (ADNEC). The</p>
+                                    <div class="d-flex my-auto align-items-center">
+                                        <img class="" src="./imgs/svg/clock.svg" alt="">
+                                        <p class="m-0 ms-2">yesterday</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex">
+                                <img class="img-fluid sm-img" src="./imgs/c4.5.png" alt="">
+                                <div class="justify-content ps-2">
+                                    <h6>UAE Embassy and Cyprus National Library organise cultural initiative</h6>
+                                    <p>The UAE Embassy in Nicosia, in collaboration with the Cyprus National Library, has organised an initiative aiming to promote cultural cooperation between the national libraries of</p>
+                                    <div class="d-flex my-auto align-items-center">
+                                        <img class="" src="./imgs/svg/clock.svg" alt="">
+                                        <p class="m-0 ms-2">yesterday</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex">
+                                <img class="img-fluid sm-img" src="./imgs/c4.6.png" alt="">
+                                <div class="justify-content ps-2">
+                                    <h6>Abu Dhabi hosts Optimist Asian and Oceanian Championship with participation of 27 countries</h6>
+                                    <p>Abu Dhabi will host the Optimist Asian and Oceanian Championship 2023 from 29th October - 5th November 2023 at Corniche Breakwater. The event is organized by the</p>
+                                    <div class="d-flex my-auto align-items-center">
+                                        <img class="" src="./imgs/svg/clock.svg" alt="">
+                                        <p class="m-0 ms-2">yesterday</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex">
+                                <img class="img-fluid sm-img" src="./imgs/c4.7.png" alt="">
+                                <div class="justify-content ps-2">
+                                    <h6>Fujairah Ruler receives OPEC Secretary-General</h6>
+                                    <p>H.H. Sheikh Hamad bin Mohammed Al Sharqi, Supreme Council Member and Ruler of Fujairah, highlighted the key role of the Organisation of the Petroleum Exporting Countries (OPEC) in stabilising global oil</p>
+                                    <div class="d-flex my-auto align-items-center">
+                                        <img class="" src="./imgs/svg/clock.svg" alt="">
+                                        <p class="m-0 ms-2">yesterday</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex">
+                                <img class="img-fluid sm-img" src="./imgs/c4.8.png" alt="">
+                                <div class="justify-content ps-2">
+                                    <h6>UAE places global transformation to sustainable agricultural</h6>
+                                    <p>Mariam bint Mohammed Almheiri, UAE Minister of Climate Change and Environment, and COP28 Food Systems Lead, confirmed that UAE places the global transformation to sustainable agricultural and food systems at the t</p>
+                                    <div class="d-flex my-auto align-items-center">
+                                        <img class="" src="./imgs/svg/clock.svg" alt="">
+                                        <p class="m-0 ms-2">yesterday</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xl-4 col-12 d-flex flex-column align-items-stretch">
+                    <div id="Tag2" class="color d-flex justify-content-center align-items-center">
+                        <h6 class="text-white m-0">ECONOMY</h6>
+                    </div>
+                    <div class="col border rounded-bottom-3 p-4 d-flex align-items-around">
+                        <div class="row gap-3">
+                            <div class="col-12 d-flex">
+                                <img class="img-fluid sm-img" src="./imgs/c4.9.png" alt="">
+                                <div class="justify-content ps-2">
+                                    <h6>UAE places global transformation to sustainable agricultural</h6>
+                                    <p>Mariam bint Mohammed Almheiri, UAE Minister of Climate Change and Environment, and COP28 Food Systems Lead, confirmed that UAE places the global transformation to sustainable agricultural and food systems at the t</p>
+                                    <div class="d-flex my-auto align-items-center">
+                                        <img class="" src="./imgs/svg/clock.svg" alt="">
+                                        <p class="m-0 ms-2">yesterday</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex">
+                                <img class="img-fluid sm-img" src="./imgs/c4.10.png" alt="">
+                                <div class="justify-content ps-2">
+                                    <h6>UAE places global transformation to sustainable agricultural</h6>
+                                    <p>Mariam bint Mohammed Almheiri, UAE Minister of Climate Change and Environment, and COP28 Food Systems Lead, confirmed that UAE places the global transformation to sustainable agricultural and food systems at the t</p>
+                                    <div class="d-flex my-auto align-items-center">
+                                        <img class="" src="./imgs/svg/clock.svg" alt="">
+                                        <p class="m-0 ms-2">yesterday</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex">
+                                <img class="img-fluid sm-img" src="./imgs/c4.11.png" alt="">
+                                <div class="justify-content ps-2">
+                                    <h6>UAE places global transformation to sustainable agricultural</h6>
+                                    <p>Mariam bint Mohammed Almheiri, UAE Minister of Climate Change and Environment, and COP28 Food Systems Lead, confirmed that UAE places the global transformation to sustainable agricultural and food systems at the t</p>
+                                    <div class="d-flex my-auto align-items-center">
+                                        <img class="" src="./imgs/svg/clock.svg" alt="">
+                                        <p class="m-0 ms-2">yesterday</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex">
+                                <img class="img-fluid sm-img" src="./imgs/c4.12.png" alt="">
+                                <div class="justify-content ps-2">
+                                    <h6>UAE places global transformation to sustainable agricultural</h6>
+                                    <p>Mariam bint Mohammed Almheiri, UAE Minister of Climate Change and Environment, and COP28 Food Systems Lead, confirmed that UAE places the global transformation to sustainable agricultural and food systems at the t</p>
+                                    <div class="d-flex my-auto align-items-center">
+                                        <img class="" src="./imgs/svg/clock.svg" alt="">
+                                        <p class="m-0 ms-2">yesterday</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <footer class="bg-info">
-        <div class="row">
-            <div class="col">
-                sdffsdfsdf
+    <footer class="mt-5">
+        <div class="px-4 py-3">
+            <div class="row">
+                <div class="col-4 d-flex gap-2 gap-sm-3" id="">
+                    <a href="#"><img src="./imgs/svg/telegram.svg"></a>
+                    <a href="#"><img src="./imgs/svg/youtube.svg"></a>
+                    <a href="#"><img src="./imgs/svg/inst.svg"></a>
+                    <a href="#"><img src="./imgs/svg/facebook.svg"></a>
+                </div>
+                <div class="col-8">
+                    <div class="nav d-flex gap-3 justify-content-end">
+                        <div class="row gap-md-0">
+                            <li class="col-4 col-md text-center" data-bs-toggle="button" role="button">Home</li>
+                            <li class="col-4 col-md text-center" data-bs-toggle="button" role="button">Economy</li>
+                            <li class="col-4 col-md text-center" data-bs-toggle="button" role="button">Sport</li>
+                            <li class="col-6 col-md text-center" data-bs-toggle="button" role="button">Culture</li>
+                            <li class="col-6 col-md text-center" data-bs-toggle="button" role="button">Countries</li>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-sm-8">
+                    <p class="pt-2">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed qu</p>
+                </div>
+                <div class="col-6 col-sm-4 text-end ">
+                    <img class="img-fluid mx-0" id="logoFirst" src="./imgs/svg/logo 1.svg" alt="logo 1">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 col-sm-3 col-md-4 col-xl-3">
+                    <div class="d-flex flex-column gap-lg-5 flex-lg-row">
+                        <a class="" href="#">Privacy Policy</a>
+                        <a class="" href="#">Terms of Use</a>
+                    </div>
+                </div>
+                <div class="col-8 col-sm-9 col-md-8 col-xl-9">
+                    <p>This site uses cookies (Cookie Policy) to ensure you get the best experience</p>
+                </div>
             </div>
         </div>
     </footer>
