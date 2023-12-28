@@ -10,26 +10,25 @@
 </head>
 <body>
     <header>
-        <div id="logoRow" class="row align-items-center">
-            <div class="col-8 col-md-6 d-flex">
+        <div id="logoRow" class="d-flex flex-column flex-sm-row">
+            <div class="col d-flex justify-content-center justify-content-sm-start">
                 <img id="logoFirst" class="ps-3 py-2" src="./imgs/svg/logo 1.svg" alt="logo 1">
-                <img id="logoSecond" class="ms-1" src="./imgs/svg/logo 2.svg" alt="logo 2">
+                <img id="logoSecond" class="ms-1 h-100 d-none d-sm-block" src="./imgs/svg/logo 2.svg" alt="logo 2">
             </div>
-            <div class="col-4 col-md-6">
-                <div class="row d-flex flex-xs-column flex-row flex-sm-column flex-md-row">
-                    <div class="col-12 col-md-6 justify-content-md-center">
-                        <div id="Date" class="text-end text-md-center text-lg-end mx-0">13 декабря 2023</div>
-                    </div>
-                    <div id="Icons" class="col-12 col-md-6 d-flex gap-2 gap-md-3 align-items-center justify-content-end">
-                        <a href="#"><img src="./imgs/svg/telegram.svg"></a>
-                        <a href="#"><img src="./imgs/svg/youtube.svg"></a>
-                        <a href="#"><img src="./imgs/svg/inst.svg"></a>
-                        <a href="#"><img src="./imgs/svg/facebook.svg"></a>
-                    </div>
+            <div class="col me-auto d-flex flex-sm-column flex-row flex-lg-row py-2 ">
+                <div class="d-flex flex-fill justify-content-sm-end justify-content-center align-items-center mx-3">
+                    <div id="Date" class="text-end">13 декабря 2023</div>
+                </div>
+                <div id="Icons" class="d-flex flex-fill flex-lg-grow-0 gap-2 gap-md-3 align-items-center justify-content-end mx-3 ">
+                    <a href="#"><img src="./imgs/svg/telegram.svg"></a>
+                    <a href="#"><img src="./imgs/svg/youtube.svg"></a>
+                    <a href="#"><img src="./imgs/svg/inst.svg"></a>
+                    <a href="#"><img src="./imgs/svg/facebook.svg"></a>
                 </div>
             </div>
+            
         </div>
-        <div class="row">
+        <div class="">
             <div class="col-12">
                 <ul id="btnGroup1" class="nav pt-1 d-flex justify-content-around justify-content-md-start">
                     <li class="" data-bs-toggle="tab" role="button">Home</li>
@@ -40,7 +39,7 @@
                 </ul>
             </div>
         </div>
-        <div class="row pt-3">
+        <div class="pt-3">
             <div id="navRow" class="col-12">
                 <ul id="btnGroup2" class="nav d-flex justify-content-around justify-content-md-start">
                     <li class="" data-bs-toggle="tab" role="button">Markets</li>
