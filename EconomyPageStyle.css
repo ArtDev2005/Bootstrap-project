@@ -31,12 +31,22 @@
     align-items: stretch;
     flex-grow: 1;
 }
-#first{
-    border-top-left-radius: 4px !important;
+
+@media (max-width: 500px){
+    #second{
+        border-top-right-radius: 4px !important;
+    }
 }
-#last{
-    border-top-right-radius: 4px !important;
+
+@media (min-width: 500px){
+    #first{
+        border-top-left-radius: 4px !important;
+    }
+    #last{
+        border-top-right-radius: 4px !important;
+    }
 }
+
 
 #Tag1, #Tag2{
     width: 120px;
