@@ -8,73 +8,69 @@
     <link rel="stylesheet" href="./EconomyPageStyle.css">
     <title>Site</title>
 </head>
+<header>
+    <div id="logoRow" class="d-flex flex-column flex-sm-row">
+        <div class="col d-flex justify-content-center justify-content-sm-start">
+            <img id="logoFirst" class="ps-3 py-2" src="./imgs/svg/logo 1.svg" alt="logo 1">
+            <img id="logoSecond" class="ms-1 h-100 d-none d-sm-block" src="./imgs/svg/logo 2.svg" alt="logo 2">
+        </div>
+        <div class="col me-auto d-flex flex-sm-column flex-row flex-lg-row py-2 ">
+            <div class="d-flex flex-fill justify-content-sm-end justify-content-center align-items-center mx-3">
+                <div id="Date" class="text-end">13 декабря 2023</div>
+            </div>
+            <div id="Icons" class="d-flex flex-fill flex-lg-grow-0 gap-2 gap-md-3 align-items-center justify-content-end mx-3 ">
+                <a href="#"><img src="./imgs/svg/telegram.svg"></a>
+                <a href="#"><img src="./imgs/svg/youtube.svg"></a>
+                <a href="#"><img src="./imgs/svg/inst.svg"></a>
+                <a href="#"><img src="./imgs/svg/facebook.svg"></a>
+            </div>
+        </div>
+        
+    </div>
+    <div class="">
+        <div class="col-12">
+            <ul id="btnGroup1" class="nav pt-1 d-flex justify-content-around justify-content-md-start">
+                <li class="" data-bs-toggle="tab" role="button">Home</li>
+                <li class=" active" data-bs-toggle="tab" role="button">Economy</li>
+                <li class="" data-bs-toggle="tab" role="button">Sport</li>
+                <li class="" data-bs-toggle="tab" role="button">Culture</li>
+                <li class="" data-bs-toggle="tab" role="button">Countries</li>
+            </ul>
+        </div>
+    </div>
+    <div class="pt-3">
+        <div id="navRow" class="col-12">
+            <ul id="btnGroup2" class="nav d-flex justify-content-around justify-content-md-start">
+                <li class="" data-bs-toggle="tab" role="button">Markets</li>
+                <li class=" active" data-bs-toggle="tab" role="button">Real Estates</li>
+                <li class="" data-bs-toggle="tab" role="button">Investments</li>
+                <li class="" data-bs-toggle="tab" role="button">Tourism</li>
+                <li class="" data-bs-toggle="tab" role="button">Energy</li>
+            </ul>
+        </div>
+    </div>
+</header>
 <body>
-    <header>
-        <div id="logoRow" class="d-flex flex-column flex-sm-row">
-            <div class="col d-flex justify-content-center justify-content-sm-start">
-                <img id="logoFirst" class="ps-3 py-2" src="./imgs/svg/logo 1.svg" alt="logo 1">
-                <img id="logoSecond" class="ms-1 h-100 d-none d-sm-block" src="./imgs/svg/logo 2.svg" alt="logo 2">
-            </div>
-            <div class="col me-auto d-flex flex-sm-column flex-row flex-lg-row py-2 ">
-                <div class="d-flex flex-fill justify-content-sm-end justify-content-center align-items-center mx-3">
-                    <div id="Date" class="text-end">13 декабря 2023</div>
-                </div>
-                <div id="Icons" class="d-flex flex-fill flex-lg-grow-0 gap-2 gap-md-3 align-items-center justify-content-end mx-3 ">
-                    <a href="#"><img src="./imgs/svg/telegram.svg"></a>
-                    <a href="#"><img src="./imgs/svg/youtube.svg"></a>
-                    <a href="#"><img src="./imgs/svg/inst.svg"></a>
-                    <a href="#"><img src="./imgs/svg/facebook.svg"></a>
-                </div>
-            </div>
-            
-        </div>
-        <div class="">
-            <div class="col-12">
-                <ul id="btnGroup1" class="nav pt-1 d-flex justify-content-around justify-content-md-start">
-                    <li class="" data-bs-toggle="tab" role="button">Home</li>
-                    <li class=" active" data-bs-toggle="tab" role="button">Economy</li>
-                    <li class="" data-bs-toggle="tab" role="button">Sport</li>
-                    <li class="" data-bs-toggle="tab" role="button">Culture</li>
-                    <li class="" data-bs-toggle="tab" role="button">Countries</li>
-                </ul>
-            </div>
-        </div>
-        <div class="pt-3">
-            <div id="navRow" class="col-12">
-                <ul id="btnGroup2" class="nav d-flex justify-content-around justify-content-md-start">
-                    <li class="" data-bs-toggle="tab" role="button">Markets</li>
-                    <li class=" active" data-bs-toggle="tab" role="button">Real Estates</li>
-                    <li class="" data-bs-toggle="tab" role="button">Investments</li>
-                    <li class="" data-bs-toggle="tab" role="button">Tourism</li>
-                    <li class="" data-bs-toggle="tab" role="button">Energy</li>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <div class="container mt-1">
-        <div id="Header" class="row pt-5">
+    <div class="container">
+        <div id="Header" class="row mt-3">
             <h1 class=""><span class="underline">Economy</span></h1>
         </div>
-        <div class="row mt-3 gap-4 gap-xxl-0">
-            <div class="col-xl-7 col-12">
-                <div id="newsBlock1" class="row flex-column">
-                    <img class="img-fluid lg-img w-100 h-100" src="./imgs/adnic.png" alt="">
-                    <div class="justify-content mt-2">
-                        <header class="">
-                            ADNIC reports net profit of AED 301.9 million for the first nine months of 2023
-                        </header>
-                        <p>ABU DHABI, 14th November, 2023 (WAM) – Abu Dhabi National Insurance Company (ADNIC) reported its financial results for the nine-month period ended 30 September 2023.ADNIC’s net profit reached AED 301.9 million for the nine-month period ended 30 September 2023, representing a 16.2% increase compared</p>
-                        <div class="d-flex my-3 align-items-center">
-                            <img class="" src="./imgs/svg/clock.svg" alt="">
-                            <p class="m-0 ms-2">yesterday</p>
-                        </div>
+        <div class="row mt-3">
+            <div class="col-xl-6 col-xxl-8 col-12">
+                <div class="d-flex flex-column">
+                    <img class="img-fluid lg-img mx-auto d-lg-block w-100 h-75" src="./imgs/adnic.png" alt="">
+                    <h5 class="mt-2">ADNIC reports net profit of AED 301.9 million for the first nine months of 2023</h5>
+                    <p>ABU DHABI, 14th November, 2023 (WAM) – Abu Dhabi National Insurance Company (ADNIC) reported its financial results for the nine-month period ended 30 September 2023.ADNIC’s net profit reached AED 301.9 million for the nine-month period ended 30 September 2023, representing a 16.2% increase compared</p>
+                    <div class="d-flex mb-3 align-items-center">
+                        <img class="" src="./imgs/svg/clock.svg" alt="">
+                        <p class="m-0 ms-2">yesterday</p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-xl-5 col-12">
-                <div id="newsBlock2" class="row flex-column gap-3">
-                    <div class="col-12 d-flex flex-xl-column flex-row flex-xxl-row">
+            <div id="newsBlock2" class="col-xl-6 col-xxl-4 col-12">
+                <div class="row gap-xl-0 gap-3">
+                    <div class="col-12 d-flex">
                         <img class="img-fluid sm-img mx-lg-auto d-lg-block" src="./imgs/c1.png" alt="">
                         <div class="justify-content ps-2">
                             <h6>Dubai showcases its manufacturing capabilities at Anuga food and beverage exhibition</h6>
@@ -85,7 +81,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 d-flex flex-xl-column flex-row flex-xxl-row">
+                    <div class="col-12 d-flex">
                         <img class="img-fluid sm-img mx-lg-auto d-lg-block" src="./imgs/c2.png" alt="">
                         <div class="justify-content ps-2">
                             <h6>Dubai showcases its manufacturing capabilities at Anuga food and beverage exhibition</h6>
@@ -96,7 +92,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 d-flex flex-xl-column flex-row flex-xxl-row">
+                    <div class="col-12 d-flex">
                         <img class="img-fluid sm-img mx-lg-auto d-lg-block" src="./imgs/c3.png" alt="">
                         <div class="justify-content ps-2">
                             <h6>Dubai showcases its manufacturing capabilities at Anuga food and beverage exhibition</h6>
@@ -107,7 +103,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 d-flex flex-xl-column flex-row flex-xxl-row">
+                    <div class="col-12 d-flex">
                         <img class="img-fluid sm-img mx-lg-auto d-lg-block" src="./imgs/c4.png" alt="">
                         <div class="justify-content ps-2">
                             <h6>Dubai showcases its manufacturing capabilities at Anuga food and beverage exhibition</h6>
@@ -120,7 +116,6 @@
                     </div>
                 </div>
             </div>
-            
         </div>
         
         <div id="cardBlock" class="mt-5 gy-3">
